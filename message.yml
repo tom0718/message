@@ -11,4 +11,4 @@ spring:
 
 jwt:
   token:
-    key: my_secret_key
+    key: "{cipher}e0b6738eb0fa6626cc50002deb2a7c7bd8168e770c23273d1ff97e36cedfdbd91321104d58f31414b194d2824350fa8a"
