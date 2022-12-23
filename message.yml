@@ -7,7 +7,7 @@ spring:
     url: dbUrl
     driver: com.h2.Driver
     username: admin
-    password: password1234
+    password: admin
 
 jwt:
   token:
