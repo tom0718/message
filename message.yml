@@ -4,10 +4,10 @@ message:
 
 spring:
   datasource:
-    url: dbUrl
-    driver: com.h2.Driver
-    username: admin_main
-    password: admin!!!
+    url: jdbc:mysql://localhost:3306/pplus?useSSL=false&serverTimezone=Asia/Seoul
+    driver: com.mysql.cj.jdbc.Driver
+    username: root
+    password: "{cipher}1a20b8b280d27de16764cd4423d44f8dd305a8d412e1c85672e23c857b899861"
 
 jwt:
   token:
