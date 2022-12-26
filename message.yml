@@ -1,12 +1,12 @@
 message:
-  owner: config-service's native folder
+  owner: config-service's native folder main
   content: :) 안녕하세요 각각의 마이크로서비스에서 사용될 데이터입니다. :)
 
 spring:
   datasource:
     url: dbUrl
     driver: com.h2.Driver
-    username: admin
+    username: admin_main
     password: admin!!!
 
 jwt:
