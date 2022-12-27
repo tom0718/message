@@ -4,11 +4,12 @@ message:
 
 spring:
   datasource:
-    url: dbUrl
-    driver: com.h2.Driver
-    username: admin_prod
-    password: admin!!!
+    url: jdbc:mysql://localhost:3306/testdb?useSSL=false&serverTimezone=Asia/Seoul
+    driver: com.mysql.cj.jdbc.Driver
+    username: root
+    password: "{cipher}1a20b8b280d27de16764cd4423d44f8dd305a8d412e1c85672e23c857b899861"
 
 jwt:
   token:
-    key: "{cipher}e0b6738eb0fa6626cc50002deb2a7c7bd8168e770c23273d1ff97e36cedfdbd91321104d58f31414b194d2824350fa8a"
+    key: "{cipher}3d3ef174e7a52a981f084538b6afcb7b372c2e190ca65768befc95fe4c51dbd030b5fd59d0f5fe1645f2f4f0466f27df"
+    expiration_time: 50000
