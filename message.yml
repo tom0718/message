@@ -9,11 +9,6 @@ spring:
     username: root
     password: "{cipher}1a20b8b280d27de16764cd4423d44f8dd305a8d412e1c85672e23c857b899861"
  
- jpa:
-  hibernate:
-    ddl-auto: none
-  show-sql: true
- 
 
 jwt:
   token:
