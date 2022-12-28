@@ -18,4 +18,4 @@ spring:
 jwt:
   token:
     key: "{cipher}6540fddb05714dc0eab8fbb10995491c5264f09616f7d3e67b476bf643d459a76a157f1ec27ae5b638bff6dab7f4787f2dc35bfbd4144fc8b4281b6319f8167cd01b523dd363b99abfa673030e94f3c4"
-    expiration_time: 3600
+    expiration_time: 1800
