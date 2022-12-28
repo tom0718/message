@@ -18,7 +18,7 @@ spring:
 jwt:
   token:
     key: "{cipher}4a4dc774631c1ffe42faecefab4dff6cf09ecbaf35a6608efc49e85caffd398c262b071cd4b73c41c900248b230ac36fc6d4196f4770ac3baf3711753e8419b6ac76d17d2dd24429f573d5502d8269af"
-    expiration_time: 60
+    expiration_time: 1800 #30분
     refresh:
       key: "{cipher}977e124d0557ac3e28f70b8fdd64f46a83ea3889b01abae80873e4debf247faf759ca27d0fa1a9fd9ccfc2e817bd2bb7b81b292025f53f3454970a66af4bc46dd0adc67b3d0c5f8a5d5435011d5cf1bf800adfccac73c445fec07cdd3de61e58"
       expiration_time: 1296000 #15일
