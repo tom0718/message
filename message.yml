@@ -8,8 +8,8 @@ spring:
     -- driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
     password: "{cipher}fc564c5cc130cce00f99393860cd78abbaf1b994bb7c51ba7cf3aa181255aaaf"
-  autoconfigure:
-    exclude: org.springframework.boot.autoconfigure.security.reactive.ReactiveSecurityAutoConfiguration
+    pool:
+      enable: false
   jpa:
     show-wql: true
     properties:
