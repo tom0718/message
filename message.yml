@@ -13,12 +13,6 @@ spring:
     properties:
       hibernate:
          format_sql: true
-    repositories:
-      enabled: false
-  data:
-    jdbc:
-      repositories:
-        enabled: false
 
 jwt:
   token:
