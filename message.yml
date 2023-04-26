@@ -9,7 +9,7 @@ spring:
     username: root
     password: "{cipher}fc564c5cc130cce00f99393860cd78abbaf1b994bb7c51ba7cf3aa181255aaaf"
     pool:
-      enable: false
+      enable: true
   jpa:
     show-wql: true
     properties:
